@@ -1,0 +1,67 @@
+git --version
+
+git config --global user.name "vishal"
+
+git config --global user.email vishalchoudhary80599@gmail.com
+
+git config --list
+
+git init                      //initialise ur empty folder as git repository
+
+git status                    //check git status
+
+git add .                     //add file in repository
+
+git status                    //check git status
+
+git commit -m "first commit"  //saave your file in repository
+
+git log --onleine             //brief log of commit
+
+git checkout                  //check out file from older commit
+
+git reset                     //reset the staging area
+
+
+///////////////////how to push ur local repository on github online
+
+git remote add origin https://github.com/vishalchoudhary47/git-test.git (add the remote online repository)
+
+
+
+git push -u origin master  //push the local repository to the origin to the master branch
+
+
+///////////////////how to clone ur online repository in ur pc
+
+git clone https://github.com/vishalchoudhary47/git-test.git
+
+
+
+//npm install command 
+
+npm install
+
+//install bootstrap
+
+npm install bootstrap@4.0.0 --save
+
+//how to start lite server
+
+npm start
+
+
+//font awesome commands.................
+
+npm install font-awesome@4.7.0 --save
+
+npm install bootstrap-social@5.1.1 --save
+
+//HOW to convert sass file into a css file 
+first
+npm install--save-dev node-sass@4.7.2
+now make changes in package.json file
+add in script: "scss": "node-sass -o css/ css/"
+now...
+ in cmd type: npm run scss
+this will convert all scss file in css

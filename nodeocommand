@@ -1,0 +1,11 @@
+node --version
+
+npm --version
+
+npm init   //initilize pakge.json file
+
+discription:blablablabla
+entry point:index.html
+test command:----------
+npm install lite-server --save-dev
+
